@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body ng-controller='init'>
+    <new-dice background-color='red' text-color="white">This is more text</new-dice>
+    <new-dice background-color='blue' text-color="black"></new-dice>
+    <new-dice background-color='green' text-color="white"></new-dice>
+    <new-dice background-color='pink' text-color="blue"></new-dice>
+    <new-dice background-color='blue' text-color="black"></new-dice>
+    <div class="">
+      <h1>{{total}}</h1>
+    </div>
+  </body>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</html>
